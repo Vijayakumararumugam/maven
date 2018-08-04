@@ -25,8 +25,8 @@ public class TC001_LogIn extends ProjectMethods{
 		new LoginPage()
 		.typeUserName(uName)
 		.typePassword(pwd)
-		.clickLogin()
-		.clickLogOut();
+		.clickLogin();//Changed By Koushik
+		//.clickLogOut();
 	}
 
 
