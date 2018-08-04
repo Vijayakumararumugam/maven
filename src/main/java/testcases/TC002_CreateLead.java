@@ -11,8 +11,8 @@ public class TC002_CreateLead extends ProjectMethods{
 	@BeforeTest
 	public void setData() {
 		browserName = "chrome";
-		testCaseName = "TC001";
-		testDescription = "Login to LeafTaps";
+		testCaseName = "TC002";
+		testDescription = "Create a New Lead";
 		testNodes = "Leads";
 		category = "smoke";
 		authors = "sarath";
