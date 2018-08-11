@@ -1,4 +1,4 @@
-package runnerClass;
+package steps;
 
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
@@ -18,8 +18,15 @@ public class Hook extends SeMethods{
 	}
 	@After
 	public void after() {
+		//After method
 		closeAllBrowsers();
+		//After Suite
 		endResult();
 	}
 
 }
+
+
+
+
+
